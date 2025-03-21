@@ -25,7 +25,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/critical_blunder?useSSL=false&serverTimezone=UTC
       - SPRING_DATASOURCE_USERNAME=critical_user
       - SPRING_DATASOURCE_PASSWORD=critical_pass
-      - CORS_ALLOWED_ORIGIN=http://localhost:5173
+      - CORS_ALLOWED_ORIGIN=http://localhost:81
       - CORS_ALLOWED_ORIGIN_LIST=http://localhost:3000,http://localhost:5173,http://127.0.0.1,http://localhost:81
     depends_on:
       - mysql
